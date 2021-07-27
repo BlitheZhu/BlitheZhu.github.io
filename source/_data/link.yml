@@ -7,8 +7,12 @@
       descr: 快速、简单的博客框架
     - name: mirsery的博客
       link: https://mirsery.github.io/
-      avatar: /img/mirsery.jpg
+      avatar: https://mirsery.github.io/favicon.ico
       descr: 强大的技术博客
+    - name: afa的博客
+      link: https://happyafa.github.io/
+      avatar: https://happyafa.github.io/css/images/favicon.ico
+      descr: afa技术博客
 
 - class_name: 网站
   class_desc: 值得推荐的网站
