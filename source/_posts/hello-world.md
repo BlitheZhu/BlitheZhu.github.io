@@ -5,7 +5,7 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 theme is [butterfly](https://butterfly.js.org/)
 [travis](https://travis-ci.com/github/BlitheZhu)
 [爱素材](https://www.aiaisucai.com/index/index/index.html)
-[valine](https://www.leancloud.cn/) 评论管理平台
+[valine](https://www.leancloud.cn/) 评论管理平台，[使用方式](https://xuqwblog.blog.csdn.net/article/details/107248047)
 
 ## Quick Start
 
