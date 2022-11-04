@@ -1,0 +1,298 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>butterfly主题配置valine评论 | blitheZhu</title><meta name="author" content="blitheZhu"><meta name="copyright" content="blitheZhu"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="获取APP ID 和 APP KeyLeanCloud官网: LeanCloud 请先登录或注册 LeanCloud, 注册选择国际版    进入控制台，创建应用    选择设置-&gt;应用凭证，找到AppID 跟 AppKey    将AppID 跟 AppKey复制到butterfly主题配置文件 _config.butterfly.yml 中 找到 comments 配置，启用 valin">
+<meta property="og:type" content="article">
+<meta property="og:title" content="butterfly主题配置valine评论">
+<meta property="og:url" content="https://blithezhu.top/2022/11/02/202211021708/index.html">
+<meta property="og:site_name" content="blitheZhu">
+<meta property="og:description" content="获取APP ID 和 APP KeyLeanCloud官网: LeanCloud 请先登录或注册 LeanCloud, 注册选择国际版    进入控制台，创建应用    选择设置-&gt;应用凭证，找到AppID 跟 AppKey    将AppID 跟 AppKey复制到butterfly主题配置文件 _config.butterfly.yml 中 找到 comments 配置，启用 valin">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://blithezhu.top/img/open_book_hires.JPG">
+<meta property="article:published_time" content="2022-11-02T17:08:22.000Z">
+<meta property="article:modified_time" content="2022-11-04T08:33:49.932Z">
+<meta property="article:author" content="blitheZhu">
+<meta property="article:tag" content="-theme">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blithezhu.top/img/open_book_hires.JPG"><link rel="shortcut icon" href="/img/icon.jpg"><link rel="canonical" href="https://blithezhu.top/2022/11/02/202211021708/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"prismjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'butterfly主题配置valine评论',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-11-04 08:33:49'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="blitheZhu" type="application/atom+xml">
+</head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/icon.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-book"></i><span> 找文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-coffee"></i><span> 生活</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/messageboard/"><i class="fa-fw fas fa-comment-dots"></i><span> 留言板</span></a></li><li><a class="site-page child" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/open_book_hires.JPG')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">blitheZhu</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-book"></i><span> 找文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-coffee"></i><span> 生活</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/messageboard/"><i class="fa-fw fas fa-comment-dots"></i><span> 留言板</span></a></li><li><a class="site-page child" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">butterfly主题配置valine评论</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-11-02T17:08:22.000Z" title="发表于 2022-11-02 17:08:22">2022-11-02</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-11-04T08:33:49.932Z" title="更新于 2022-11-04 08:33:49">2022-11-04</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/theme/">theme</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="butterfly主题配置valine评论"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><div class="top-img gist" style="background-image: url(/img/open_book_hires.JPG)"></div><article class="post-content" id="article-container"><h2 id="获取APP-ID-和-APP-Key"><a href="#获取APP-ID-和-APP-Key" class="headerlink" title="获取APP ID 和 APP Key"></a>获取APP ID 和 APP Key</h2><blockquote><p>LeanCloud官网: <a target="_blank" rel="noopener" href="https://console.leancloud.app/">LeanCloud</a></p>
+<p>请先登录或注册 <code>LeanCloud</code>, 注册选择国际版</p>
+</blockquote>
+
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/../img/leanCloud/leanCloud.png" alt="leanCloud.png"></p>
+<blockquote><p>进入控制台，<code>创建应用</code></p>
+</blockquote>
+
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/../img/leanCloud/leanCloud1.png" alt="leanCloud1.png"></p>
+<blockquote><p>选择<code>设置</code>-&gt;<code>应用凭证</code>，找到AppID 跟 AppKey</p>
+</blockquote>
+
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/../img/leanCloud/leanCloud2.png" alt="leanCloud2.png"></p>
+<blockquote><p>将AppID 跟 AppKey复制到butterfly主题配置文件 <code>_config.butterfly.yml</code> 中</p>
+<p>找到 <code>comments</code> 配置，启用 valine</p>
+</blockquote>
+
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/../img/leanCloud/leanCloud3.png" alt="leanCloud3.png"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/../img/leanCloud/leanCloud4.png" alt="leanCloud4.png"></p>
+<div class="note warning simple"><p>在使用valine作为评论管理开发时发现，默认的leanCloud api接口被墙，所以需要给 leanCloud REST API绑定域名。<br>域名申请在这边不多说。</p>
+</div>
+
+
+<h2 id="绑定API访问域名"><a href="#绑定API访问域名" class="headerlink" title="绑定API访问域名"></a>绑定API访问域名</h2><blockquote><p>选择<code>设置</code>-&gt;<code>域名绑定</code>-&gt;<code>API 访问域名</code>-&gt;<code>绑定新域名</code>，输入申请的域名,其他默认。点击绑定</p>
+<p>绑定成功之后会提示绑定dns，复制推荐DNS配置下面的 <code>CNAME</code> 路径，在域名dns控制台加入解析，</p>
+<p>等待2-10分钟，刷新页面显示 <code>已绑定</code></p>
+</blockquote>
+
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/../img/leanCloud/leanCloud5.png" alt="leanCloud5.png"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/../img/leanCloud/leanCloud6.png" alt="leanCloud6.png"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/../img/leanCloud/leanCloud7.png" alt="leanCloud7.png"></p>
+<blockquote><p>选择<code>设置</code>-&gt;<code>应用凭证</code>-&gt;<code>服务器地址</code>-&gt;<code>REST API 服务器地址</code>，到这边可以看到，rest api的地址已经变成你自己的域名<br>复制api域名，在butterfly主题配置文件 <code>_config.butterfly.yml</code> 中，找到<code>valine</code>配置，将该域名复制到<code>serverURLs</code></p>
+</blockquote>
+
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/../img/leanCloud/leanCloud8.png" alt="leanCloud8.png"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/../img/leanCloud/leanCloud9.png" alt="leanCloud9.png"></p>
+<blockquote><p>找到<code>设置</code>-&gt;<code>安全中心</code>-&gt;<code>Web 安全域名</code>， 将博客地址添加到 安全域名下<br>有多个域名添加多个</p>
+</blockquote>
+
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/../img/leanCloud/leanCloud10.png" alt="leanCloud10.png"></p>
+<div class="note info simple"><p>到这边评论系统已经可用，但想着别人评论的时候可以收到通知，于是部署了valine-admin 评论管理系统，并配置了邮件发送<br>valine-admin 评论管理系统 git仓库地址：<a target="_blank" rel="noopener" href="https://github.com/DesertsP/Valine-Admin">https://github.com/DesertsP/Valine-Admin</a></p>
+</div>
+
+
+<h2 id="部署Valine-admin评论管理系统系统增加邮件提醒功能"><a href="#部署Valine-admin评论管理系统系统增加邮件提醒功能" class="headerlink" title="部署Valine-admin评论管理系统系统增加邮件提醒功能"></a>部署Valine-admin评论管理系统系统增加邮件提醒功能</h2><h3 id="绑定后台域名，配置环境变量"><a href="#绑定后台域名，配置环境变量" class="headerlink" title="绑定后台域名，配置环境变量"></a>绑定后台域名，配置环境变量</h3><blockquote><p>找到<code>云引擎</code>-&gt;<code>WEB</code>-&gt;<code>设置</code> 找到<code>访问域名</code>,因为共享域名被墙，所以我选择 <code>自定义域名</code><br>点击绑定自定义域名，输入申请的子域名点击绑定<br>复制 <code>CNAME</code>，去域名管理平台域名下添加 域名解析<br>等待2-10分钟，刷新页面，显示绑定成功</p>
+</blockquote>
+
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/../img/leanCloud/leanCloud11.png" alt="leanCloud11.png"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/../img/leanCloud/leanCloud12.png" alt="leanCloud12.png"></p>
+<blockquote><p>找到<code>云引擎</code>-&gt;<code>WEB</code>-&gt;<code>设置</code>-&gt;<code>自定义环境变量</code>,点击 添加新变量<br>我的变量如下,具体变量名复制往下翻到 <code>环境变量</code></p>
+</blockquote>
+
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/../img/leanCloud/leanCloud13.png" alt="leanCloud13.png"></p>
+<blockquote><p>SMTP_PASS，在邮箱账号设置里 开启 IMAP&#x2F;SMTP服务，会的得到SMTP_PASS值，复制该值到 leanCloud 环境变量 SMTP_PASS </p>
+</blockquote>
+
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/../img/leanCloud/leanCloud14.png" alt="leanCloud14.png"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/../img/leanCloud/leanCloud15.png" alt="leanCloud15.png"></p>
+<h3 id="环境变量"><a href="#环境变量" class="headerlink" title="环境变量"></a>环境变量</h3><p>以下参数需要正确设置。云引擎域名（ADMIN_URL参数）用于评论后台管理</p>
+<table>
+<thead>
+<tr>
+<th>变量</th>
+<th>示例</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>SITE_NAME</td>
+<td>Deserts</td>
+<td>[必填]博客名称</td>
+</tr>
+<tr>
+<td>SITE_URL</td>
+<td><a target="_blank" rel="noopener" href="https://blogspot.com/">https://blogspot.com</a></td>
+<td>[必填]微博首页地址</td>
+</tr>
+<tr>
+<td>SMTP_SERVICE</td>
+<td>QQ</td>
+<td>[必填]邮件服务提供商，支持 QQ、163、126、Gmail 以及 更多</td>
+</tr>
+<tr>
+<td>SMTP_USER</td>
+<td><a href="mailto:&#x78;&#120;&#x78;&#120;&#120;&#120;&#x40;&#x71;&#x71;&#x2e;&#x63;&#111;&#109;">&#x78;&#120;&#x78;&#120;&#120;&#120;&#x40;&#x71;&#x71;&#x2e;&#x63;&#111;&#109;</a></td>
+<td>[必填]SMTP登录邮箱</td>
+</tr>
+<tr>
+<td>SMTP_PASS</td>
+<td>ccxxxxxxxxch</td>
+<td>[必填]SMTP登录密码（QQ邮箱需要获取独立密码）</td>
+</tr>
+<tr>
+<td>SENDER_NAME</td>
+<td>blitheZhu</td>
+<td>[必填]发件人</td>
+</tr>
+<tr>
+<td>SENDER_EMAIL</td>
+<td><a href="mailto:&#x78;&#120;&#x78;&#x78;&#x78;&#120;&#x40;&#x71;&#x71;&#46;&#x63;&#x6f;&#109;">&#x78;&#120;&#x78;&#x78;&#x78;&#120;&#x40;&#x71;&#x71;&#46;&#x63;&#x6f;&#109;</a></td>
+<td>[必填]发件邮箱</td>
+</tr>
+<tr>
+<td>ADMIN_URL</td>
+<td><a target="_blank" rel="noopener" href="https://xxx.leanapp.cn/">https://xxx.leanapp.cn/</a></td>
+<td>Web主机二级域名（云引擎域名）,上面配置的自定义域名，用于自动唤醒</td>
+</tr>
+<tr>
+<td>BLOGGER_EMAIL</td>
+<td><a href="mailto:&#120;&#120;&#x78;&#x78;&#120;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#120;&#120;&#x78;&#x78;&#120;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td>[可选]博主通知收件地址，默认使用SENDER_EMAIL</td>
+</tr>
+<tr>
+<td>AKISMET_KEY</td>
+<td>xxxxxxxx</td>
+<td>[可选]Akismet Key 用于垃圾评论检测，设为MANUAL_REVIEW开启人工审核，留空不使用反垃圾</td>
+</tr>
+</tbody></table>
+<h3 id="云引擎部署"><a href="#云引擎部署" class="headerlink" title="云引擎部署"></a>云引擎部署</h3><blockquote><p>找到 <code>云引擎</code>-&gt;<code>WEB</code>-&gt;<code>部署</code>，点击<code>部署项目</code>，选择<code>Git</code>部署，输入valine-admin  git地址：<br><a target="_blank" rel="noopener" href="https://github.com/DesertsP/Valine-Admin.git">https://github.com/DesertsP/Valine-Admin.git</a><br>选择<code>手动部署</code>,选择<code>生产环境</code>，点击<code>部署</code>，部署完成。</p>
+</blockquote>
+
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/../img/leanCloud/leanCloud16.png" alt="leanCloud16.png"></p>
+<blockquote><p>浏览器输入，你配置的后台访问域名，进入管理页面<br>首先需要设置管理员信息。访问管理员注册页面https:&#x2F;&#x2F;云引擎域名&#x2F;sign-up,<br>登录上去即可查看管理评论</p>
+</blockquote>
+
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/../img/leanCloud/leanCloud17.png" alt="leanCloud17.png"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/../img/leanCloud/leanCloud18.png" alt="leanCloud18.png"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/../img/leanCloud/leanCloud19.png" alt="leanCloud19.png"></p>
+<blockquote><p>去博客评论下测试，管理平台正常，邮件发送正常</p>
+</blockquote>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/../img/leanCloud/leanCloud21.png" alt="leanCloud21.png"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/../img/leanCloud/leanCloud20.png" alt="leanCloud20.png"></p>
+<div class="note success disabled"><p>最后设置云引擎定时任务，防止云引擎休眠<br>找到<code>云引擎</code>-&gt;<code>定时任务</code>-&gt;<code>创建定时任务</code><br>选择<code>self-wake</code>云函数，Cron表达式为0 *&#x2F;30 0-16 * * ?，表示每天早0点到晚16点每隔30分钟访问云引擎。</p>
+<p>选择<code>resend-mails</code>云函数，Cron表达式为0 0 0 * * ?，表示每天0点检查过去24小时内漏发的通知邮件并补发。<br>打完收工。</p>
+</div>
+
+<div class="note warning disabled"><p>注意，我这边没有做<code>邮件消息模板</code>的配置，如需配置，请去valine-admin官方文档下查看相应配置<br>valine-admin Git仓库地址：<a target="_blank" rel="noopener" href="https://github.com/DesertsP/Valine-Admin">https://github.com/DesertsP/Valine-Admin</a></p>
+</div>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://blithezhu.top">blitheZhu</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://blithezhu.top/2022/11/02/202211021708/">https://blithezhu.top/2022/11/02/202211021708/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://blithezhu.top" target="_blank">blitheZhu</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/theme/">-theme</a></div><div class="post_share"><div class="social-share" data-image="/img/open_book_hires.JPG" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/wechat.jpg" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/wechat.jpg" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="/img/alipay.jpg" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/alipay.jpg" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2022/11/03/202211031036/"><img class="prev-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">butterfly侧边栏引用‘一言’</div></div></a></div><div class="next-post pull-right"><a href="/2022/11/02/202211020952/"><img class="next-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/drawing_circle_hires.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">解决win11更新之后任务栏聊天软件不显示消息闪烁的预览内容的问题</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2022/11/03/202211031036/" title="butterfly侧边栏引用‘一言’"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-11-03</div><div class="title">butterfly侧边栏引用‘一言’</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%8E%B7%E5%8F%96APP-ID-%E5%92%8C-APP-Key"><span class="toc-number">1.</span> <span class="toc-text">获取APP ID 和 APP Key</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%91%E5%AE%9AAPI%E8%AE%BF%E9%97%AE%E5%9F%9F%E5%90%8D"><span class="toc-number">2.</span> <span class="toc-text">绑定API访问域名</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%83%A8%E7%BD%B2Valine-admin%E8%AF%84%E8%AE%BA%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E7%B3%BB%E7%BB%9F%E5%A2%9E%E5%8A%A0%E9%82%AE%E4%BB%B6%E6%8F%90%E9%86%92%E5%8A%9F%E8%83%BD"><span class="toc-number">3.</span> <span class="toc-text">部署Valine-admin评论管理系统系统增加邮件提醒功能</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%91%E5%AE%9A%E5%90%8E%E5%8F%B0%E5%9F%9F%E5%90%8D%EF%BC%8C%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F"><span class="toc-number">3.1.</span> <span class="toc-text">绑定后台域名，配置环境变量</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F"><span class="toc-number">3.2.</span> <span class="toc-text">环境变量</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%91%E5%BC%95%E6%93%8E%E9%83%A8%E7%BD%B2"><span class="toc-number">3.3.</span> <span class="toc-text">云引擎部署</span></a></li></ol></li></ol></div></div></div></div></main><footer id="footer" style="background-image: url('/img/boats_shore_hires1.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By blitheZhu</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="chat_btn" type="button" title="聊天"><i class="fas fa-sms"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><div class="js-pjax"></div><script>((window.gitter = {}).chat = {}).options = {
+  disableDefaultChat: true,
+};
+document.addEventListener('gitter-sidecar-ready', (e) => {
+  const GitterChat = e.detail.Chat
+  let chat
+
+  function initGitter () {
+    chat = new GitterChat({
+      room: 'BlitheZhu/my-blog-talk-room',
+      activationElement: '#chat_btn'
+    });
+  }
+
+  initGitter()
+
+  if (false) {
+    document.addEventListener('pjax:complete', () => {
+      chat.destroy()
+      initGitter()
+    })
+  }
+
+})</script><script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async="async" defer="defer"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
