@@ -1,0 +1,48 @@
+- let emojiMaps = '""'
+if site.data.valine
+  - emojiMaps = JSON.stringify(site.data.valine)
+
+script.
+  var requestSetting = function (from,set) {
+      var from = from
+      var setting = set.split(',').filter(function(item){
+      return from.indexOf(item) > -1
+      });
+      setting = setting.length == 0 ? from :setting;
+      return setting
+    }
+
+    var guestInfo = requestSetting(['nick','mail','link'],'#{ theme.valine.guest_info }')
+    var requiredFields = requestSetting(['nick','mail'],'#{ theme.valine.requiredFields }')
+
+  function loadValine () {
+    function initValine () {
+      const valine = new Valine(Object.assign({
+        el: '#vcomment',
+        appId: '#{theme.valine.appId}',
+        appKey: '#{theme.valine.appKey}',
+        avatar: '#{theme.valine.avatar}',
+        serverURLs: '#{theme.valine.serverURLs}',
+        placeholder: '#{theme.valine.placeholder}',
+        meta: guestInfo,
+        requiredFields: requiredFields,
+        emojiMaps: !{emojiMaps},
+        path: window.location.pathname,
+        visitor: #{theme.valine.visitor}
+      }, !{JSON.stringify(theme.valine.option)}))
+    }
+
+    if (typeof Valine === 'function') initValine() 
+    else getScript('!{url_for(theme.asset.valine)}').then(initValine)
+  }
+
+  if ('!{theme.comments.use[0]}' === 'Valine' || !!{theme.comments.lazyload}) {
+    if (!{theme.comments.lazyload}) btf.loadComment(document.getElementById('vcomment'),loadValine)
+    else setTimeout(loadValine, 0)
+  } else {
+    function loadOtherComment () {
+      loadValine()
+    }
+  }
+  
+
