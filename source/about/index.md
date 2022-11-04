@@ -2,7 +2,10 @@
 title: 关于
 date: 2021-07-22 14:41:42
 type: "about"
-top-img: /img/icon.jpg
+onlyTitle: true
+[//]: # (layout: "about")
+swiper: true
+swiperImg: /img/background.jpg
 ---
 
 ---

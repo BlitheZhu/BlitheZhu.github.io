@@ -5,7 +5,7 @@
 # Site
 title: blitheZhu
 subtitle: '今日事，今日毕'
-description: '今日事，今日毕'
+description: '无忧无虑的猪'
 keywords:
 author: blitheZhu
 language: zh-CN
@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://blithezhu.top
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -44,14 +44,14 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
-  line_number: true
+  enable: false
+  line_number: false
   auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
 prismjs:
-  enable: false
+  enable: true
   preprocess: true
   line_number: true
   tab_replace: ''
@@ -103,5 +103,9 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: https://github.com/BlitheZhu/BlitheZhu.github.io.git
+  repository: git://github.com/BlitheZhu/BlitheZhu.github.io.git
   branch: master
+
+search:
+  path: search.xml
+  field: post
