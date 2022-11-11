@@ -4,7 +4,7 @@
   <url>
     <loc>https://blithezhu.top/link/index.html</loc>
     
-    <lastmod>2022-11-04</lastmod>
+    <lastmod>2022-11-11</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +13,7 @@
   <url>
     <loc>https://blithezhu.top/messageboard/index.html</loc>
     
-    <lastmod>2022-11-04</lastmod>
+    <lastmod>2022-11-11</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,70 +22,7 @@
   <url>
     <loc>https://blithezhu.top/tags/index.html</loc>
     
-    <lastmod>2022-11-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blithezhu.top/2022/11/02/202211020952/</loc>
-    
-    <lastmod>2022-11-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blithezhu.top/2022/11/02/202211021708/</loc>
-    
-    <lastmod>2022-11-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blithezhu.top/2022/11/03/202211031036/</loc>
-    
-    <lastmod>2022-11-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blithezhu.top/2021/12/02/hello-world/</loc>
-    
-    <lastmod>2022-11-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blithezhu.top/2021/11/02/test/</loc>
-    
-    <lastmod>2022-11-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blithezhu.top/about/index.html</loc>
-    
-    <lastmod>2022-11-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blithezhu.top/categories/index.html</loc>
-    
-    <lastmod>2022-11-04</lastmod>
+    <lastmod>2022-11-11</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -94,7 +31,7 @@
   <url>
     <loc>https://blithezhu.top/friends/index.html</loc>
     
-    <lastmod>2022-11-04</lastmod>
+    <lastmod>2022-11-11</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -103,7 +40,70 @@
   <url>
     <loc>https://blithezhu.top/gallery/index.html</loc>
     
-    <lastmod>2022-11-04</lastmod>
+    <lastmod>2022-11-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blithezhu.top/2022/11/02/202211020952/</loc>
+    
+    <lastmod>2022-11-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blithezhu.top/2022/11/02/202211021708/</loc>
+    
+    <lastmod>2022-11-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blithezhu.top/2022/11/03/202211031036/</loc>
+    
+    <lastmod>2022-11-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blithezhu.top/2021/12/02/hello-world/</loc>
+    
+    <lastmod>2022-11-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blithezhu.top/2021/11/02/test/</loc>
+    
+    <lastmod>2022-11-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blithezhu.top/about/index.html</loc>
+    
+    <lastmod>2022-11-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blithezhu.top/categories/index.html</loc>
+    
+    <lastmod>2022-11-11</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -112,7 +112,7 @@
 
   <url>
     <loc>https://blithezhu.top/</loc>
-    <lastmod>2022-11-04</lastmod>
+    <lastmod>2022-11-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -120,21 +120,21 @@
   
   <url>
     <loc>https://blithezhu.top/tags/system/</loc>
-    <lastmod>2022-11-04</lastmod>
+    <lastmod>2022-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blithezhu.top/tags/theme/</loc>
-    <lastmod>2022-11-04</lastmod>
+    <lastmod>2022-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blithezhu.top/tags/test/</loc>
-    <lastmod>2022-11-04</lastmod>
+    <lastmod>2022-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -143,21 +143,21 @@
   
   <url>
     <loc>https://blithezhu.top/categories/system/</loc>
-    <lastmod>2022-11-04</lastmod>
+    <lastmod>2022-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blithezhu.top/categories/theme/</loc>
-    <lastmod>2022-11-04</lastmod>
+    <lastmod>2022-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blithezhu.top/categories/test/</loc>
-    <lastmod>2022-11-04</lastmod>
+    <lastmod>2022-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
